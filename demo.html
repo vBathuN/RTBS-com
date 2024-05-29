@@ -31,7 +31,7 @@
 		<link id="favicon3" rel="icon" href="./media/favicon.ico" />
 		<link id="thumbnailUrl" itemprop="thumbnailUrl" href="./media/vdoNinja_logo_full.png" />
 		<!-- Primary Meta Tags -->
-		<title>VDO.Ninja</title>
+		<title>RTCS Live</title>
 		<meta id="metaTitle" name="title" content="RTCS.Live" />
 		<meta name="description" content="Bring live video from your smartphone, computer, or friends directly into your Studio." />
 		<meta name="author" content="Steve Seguin" />
@@ -41,7 +41,7 @@
 		<meta property="og:url" content="https://www.rtcs.Live/" />
 		<meta property="og:title" content="RTCS.Live" />
 		<meta property="og:description" content="Bring live video from your smartphone, computer, or friends directly into Studio." />
-		<meta property="og:image" itemprop="image" content="https://vdo.ninja/media/vdoNinja_logo_full.png" />
+		<meta property="og:image" itemprop="image" content="https://com.rtcs.live/media/vdoNinja_logo_full.png" />
 		<meta name="msapplication-TileImage" content="./media/vdoNinja_logo_full.png" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
@@ -58,11 +58,6 @@
 		<script type="text/javascript" crossorigin="anonymous" src="./thirdparty/adapter.js"></script>
 		<style id="lightbox-animations" type="text/css"></style>
 		
-		<!-- Until Chrome v115 ends ; pip2 -->
-		<meta http-equiv="origin-trial" content="AoalTVyEOoiQninAV09SzviYaAtRKuTfDIsMUNQLIg1/+ZWOpXEFOL+GQGqkQzkkszPrK26oGzB1hIF3beHJjAMAAABeeyJvcmlnaW4iOiJodHRwczovL3Zkby5uaW5qYTo0NDMiLCJmZWF0dXJlIjoiRG9jdW1lbnRQaWN0dXJlSW5QaWN0dXJlQVBJIiwiZXhwaXJ5IjoxNjk0MTMxMTk5fQ==">
-		
-		<!-- Until Chrome v117 ends ; blur -->
-		<meta http-equiv="origin-trial" content="Aqwjtr1IS9AdkcWCFAOHtMMmsKDy8Ti58hQBbHkR/HnloiMhkW17cYgnkiLgOH9zuTDC/o4GquQ0MHe9tqT51wcAAABdeyJvcmlnaW4iOiJodHRwczovL3Zkby5uaW5qYTo0NDMiLCJmZWF0dXJlIjoiTWVkaWFDYXB0dXJlQmFja2dyb3VuZEJsdXIiLCJleHBpcnkiOjE2OTg5Njk1OTl9">
 		
 		<!-- <link rel="manifest" href="manifest.json" /> -->
 			<!-- ios support 
@@ -95,7 +90,7 @@
 			
 			<a id="logoname" href="./" style="text-decoration: none; color: white; margin: 0 2px 0px 8px;">
 				<span data-translate="logo-header">
-					<span id="qos">V</span>DO.Ninja 
+					<span id="qos"></span>RTCS Live 
 				</span>
 			</a>
 			<div id="head1">
@@ -2453,7 +2448,7 @@
 				<li><a onclick="changeLg('pig');toggle(document.getElementById('languages'));" style="cursor: pointer;">Pig Latin</a></li>
 			</ul>
 			<br style="line-height: 0.3;" />
-			<i class="las la-exclamation-circle"></i><a href="https://github.com/steveseguin/vdoninja/tree/master/translations" target="_blank" rel="noopener noreferrer" data-translate='add-more-here'>Add More Here!</a>
+			<i class="las la-exclamation-circle"></i><a href="https://github.com/rtcslive/rtcs/tree/master/translations" target="_blank" rel="noopener noreferrer" data-translate='add-more-here'>Add More Here!</a>
 			<br />
 		</div>
 		<div id="calendar" style="right: 20px; bottom: 30px;display:none;" class="popup-message" >
@@ -2474,16 +2469,6 @@
 			Meshcast publishing region: <select name="edgelist" id="edgelist" onchange="selectMeshcast(this);" title="Select a location that is closest to both you and your audience."></select>
 		</div>
 		<script>
-		
-			if (window.location.hostname.indexOf("www.obs.ninja") == 0) {
-				window.location = window.location.href.replace("www.obs.ninja","obs.ninja"); // the session.salt is domain specific; let's consolidate www as a result.
-			} else if (window.location.hostname.indexOf("www.vdo.ninja") == 0) {
-				window.location = window.location.href.replace("www.vdo.ninja","vdo.ninja"); // the session.salt is domain specific; let's consolidate www as a result.
-			} else if (("isSecureContext" in window) && (window.isSecureContext===false)){
-				console.error(" * Warning *\n\n - This site should be run in a secure context (https).\n - Please ensure all links, iframes, and parent windows are using SSL.\n - The webcam and other media devices may not be accessible while insecure.\n - WHEP playback and some other features might still function.");
-			}
-			
-			console.log("->> Note: Do not paste code into this console unless from a trusted source <<--")
 
 			
 			////   Are you wanting general site password protection for your self-deployment?
