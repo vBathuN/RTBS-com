@@ -1,20 +1,6 @@
 <html lang='en'>
 	<head>
-		<script type="text/javascript">
-			//  MS Internet Explorer must not be given a chance to fail before I can give the user an error message.
-			try {
-				var msie = window.navigator.userAgent.indexOf("MSIE ");
-				if (msie>0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)){ // If MSIE or IE 11
-					alert("Internet Explorer is not supported.\n\nPlease consider using Microsoft Edge or Google Chrome instead\n\nYou will be forwarded to the download page for MS Edge now.");
-					console.error("INTERNET EXPLORER IS EVIL");
-					document.write("Internet Explorer is not supported");
-					window.location = "https://www.microsoft.com/edge";
-				}
-			} catch(e){
-				console.error(e);
-			}
 		
-		</script>
 		<style>
 			html {
 				background-color: #0000;
@@ -25,33 +11,15 @@
 		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
 		<meta content="utf-8" http-equiv="encoding" />
 		
-		<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
-		<link id="favicon1" rel="icon" type="image/png" sizes="32x32" href="./media/favicon-32x32.png" />
-		<link id="favicon2" rel="icon" type="image/png" sizes="16x16" href="./media/favicon-16x16.png" />
-		<link id="favicon3" rel="icon" href="./media/favicon.ico" />
-		<link id="thumbnailUrl" itemprop="thumbnailUrl" href="./media/vdoNinja_logo_full.png" />
-		<!-- Primary Meta Tags -->
+		
 		<title>RTCS.Live</title>
 		<meta id="metaTitle" name="title" content="RTCS.Live" />
 		<meta name="description" content="Bring live video from your smartphone, computer, or friends directly into your Studio." />
 		<meta name="author" content="Bathu" />
 		<!-- Open Graph / Facebook -->
-		<meta property="og:site_name" content="RTCS.Live" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://www.rtcs.Live/" />
-		<meta property="og:title" content="RTCS.Live" />
-		<meta property="og:description" content="Bring live video from your smartphone, computer, or friends directly into Studio." />
-		<meta property="og:image" itemprop="image" content="https://web.rtcs.live/media/vdoNinja_logo_full.png" />
-		<meta name="msapplication-TileImage" content="./media/vdoNinja_logo_full.png" />
-		<meta property="og:image:type" content="image/png" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
 		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://www.rtcs.live/" />
-		<meta property="twitter:title" content="RTCS.Live" />
-		<meta property="twitter:description" content="Bring live video from your smartphone, computer, or friends directly into OBS Studio." />
-		<meta property="twitter:image" content="./media/vdoNinja_logo_full.png" />
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="#0f131d" />
 		<link rel="stylesheet" href="./main.css?ver=375" />
@@ -161,13 +129,6 @@
 				<a href="https://www.rtcs.live" aria-hidden="true">RTCS.Live, by Bathu</a> 
 			</div>
 		</div>
-		
-		<script type="text/javascript" crossorigin="anonymous" id="lib-js" src="./lib.js?ver=1060"></script>
-		<!-- 
-		// If you wish to change branding, blank offers a good clean start.
-		<script type="text/javascript" id="main-js" src="./main.js" data-translation="blank"></script>
-		-->
-		<script type="text/javascript" crossorigin="anonymous" id="main-js" src="./main.js?ver=785"></script>
 	
 
 </body>
