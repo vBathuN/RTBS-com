@@ -76,7 +76,7 @@
 		<div id="mainmenu" class="row" style="opacity: 1;">
 			
 
-			<div id="container-1" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = './speedtest.html';">
+			<div id="container-3" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = 'https://demo.rtcs.live/invite';">
 				<h2><span data-translate="run-a-speed-test">Run a Speed Test</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-tachometer-alt"></i>
 			</div>
@@ -86,7 +86,7 @@
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-blender"></i>
 			</div>
 			
-			<div id="container-3" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = 'https://msm.rtcs.live';">
+			<div id="container-1" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = 'https://msm.rtcs.live';">
 				<h2><span data-translate="try-out-versus-cam">Multi-Stream Monitor</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-gamepad"></i>
 			</div>
@@ -140,32 +140,22 @@
 				<h2><span data-translate="wizard-link-generator">Wizard Link Generator</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-hat-wizard"></i>
 			</div>
+
+			<div id="container-14" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = 'https://invite.rtcs.live';">
+				<h2><span data-translate="wizard-link-generator">Wizard Link Generator</span></h2>
+				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-hat-wizard"></i>
+			</div>
 			
-			<div id="container-17" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = './whip';">
+			<div id="container-15" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = './whip';">
+				<h2><span data-translate="publish-via-whip">Publish via WHIP</span></h2>
+				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-broadcast-tower"></i>
+			</div>
+
+			<div id="container-16" class="column columnfade pointer rounded card" style="overflow: hidden;" onclick="window.location = './whip';">
 				<h2><span data-translate="publish-via-whip">Publish via WHIP</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-broadcast-tower"></i>
 			</div>
 			
-			<div id="container-16" class="column columnfade pointer rounded card" style=" overflow-y: auto;">
-				<h2><span data-translate="share-whepsrc">Share via WHEP</span></h2>
-				<i style="margin-top:30px;font-size:560%;overflow:hidden;" class="largeDarkIcon las la-broadcast-tower"></i>
-				<div class="container-inner">
-					<br>
-					<div id="previewWhepSource"></div>
-					<br>
-					<span data-translate="enter-the-whep-URL-you-wish-to-share">Enter the WHEP URL you wish to share.</span><br><br>
-					<input type="text" autocorrect="off" id="whepURL" autocapitalize="none" style="margin:10px; border:2px solid; padding:10px; width:400px;" title="Enter an HTTPS URL" multiple="" data-key="enter-an-https-url" spellcheck="false" data-ms-editor="true"><br>
-					<button onclick="previewIframe(getById('whepURL').value);">Preview WHEP Stream</button> 
-					<button onclick="this.innerHTML = 'Update'; session.publishIFrame(getById('iframeURL').value);">Start Sharing</button><br>
-					<div class="message-card info">
-						<h1>Usage information</h1>
-						<p></p>
-						<ul style="text-align: left;">
-						<li>WHEP sources are expected to support multiple viewers; simulcasting will be used if possible.</li>
-						<li>Remote URLs must allows cross-origin requests (CORS), along with having SSL (https).</li>
-					</ul>
-					</div>
-				</div>
 				<div class="outer close">
 					<div class="inner">
 						<label class="labelclass">
