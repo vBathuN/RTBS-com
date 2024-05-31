@@ -387,7 +387,7 @@
 									<li>Disabling video sharing between guests will improve performance</li>
 									<li>Invite only guests to the room that you trust.</li>
 									<li>The "Recording" option is considered experimental.</li>
-									<li><a href="https://params.vdo.ninja" style="color:black;"><u>Advanced URL parameters</u></a> are available to customize rooms.</li>
+									<li><a href="https://params.rtcs.live" style="color:black;"><u>Advanced URL parameters</u></a> are available to customize rooms.</li>
 								</span>
 							</ul>
 							<br />
@@ -671,8 +671,8 @@
 						</select>
 					</div>
 					<br />
-					<div id="audioScreenCaptureDocs" data-translate="application-audio-capture">For application-specific audio capture, <a href='https://docs.vdo.ninja/audio' target="_blank">see here</a></div>
-					<div id="audioScreenCaptureDocs2" data-translate="1080p-screen-capture-guide">For achieving 1080p60 game-capture, <a href='https://docs.vdo.ninja/guides/how-to-screen-share-in-1080p' target="_blank">see here</a></div>
+					<div id="audioScreenCaptureDocs" data-translate="application-audio-capture">For application-specific audio capture, <a href='https://docs.rtcs.live/audio' target="_blank">see here</a></div>
+					<div id="audioScreenCaptureDocs2" data-translate="1080p-screen-capture-guide">For achieving 1080p60 game-capture, <a href='https://docs.rtcs.live/guides/how-to-screen-share-in-1080p' target="_blank">see here</a></div>
 					
 				</div>
 				<div class="outer close" title="Go back">
@@ -984,7 +984,7 @@
 						<li>Adding &showonly=SOME_OBS_VIRTUALCAM to the guest invite links allows for only a single video to be seen by the guests; this can be output of the OBS Virtual Camera for example</li>
 						<br />
 						
-						For advanced URL options and parameters, <a href="https://docs.vdo.ninja/advanced-settings">see the Wiki.</a>
+						For advanced URL options and parameters, <a href="https://docs.rtcs.live/advanced-settings">see the Wiki.</a>
 					</span>
 				</div>
 			</div>
@@ -1349,7 +1349,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="https://params.vdo.ninja" style="color:#888;" target="_blank" >
+				<a href="https://params.rtcs.live" style="color:#888;" target="_blank" >
 					<div style="display: block;float:right;font-size:70%;z-index:30;bottom:6px;right:10px;position:relative;color:#888;" ><span data-translate="learn-more-about-params">Learn more about URL parameters at </span><span style="text-decoration: underline;">params.vdo.ninja</span>
 					</div>
 				</a>
@@ -2290,7 +2290,7 @@
 					<input style="margin:0 10px;display:inline-block;padding: 8px 10px 6px 10px;" placeholder="Enter the remote OBS password here" />
 				</div>
 				<small style="margin: 20px 0 0 0;display:block;" >
-					See the <a href="https://docs.vdo.ninja/advanced-settings/upcoming-parameters/and-obs" style="cursor:pointer;" target="_blank">documentation</a> for help on using the remote OBS controller
+					See the <a href="https://docs.rtcs.live/advanced-settings/upcoming-parameters/and-obs" style="cursor:pointer;" target="_blank">documentation</a> for help on using the remote OBS controller
 				</small>
 				<div id="debugRemoteOBSControl" class="hidden">
 				</div>
@@ -2422,7 +2422,7 @@
 		<div id="screenPopup" class="popup-screen">
 			<button onclick="getById('screenPopup').style.display='none';margin:0;padding:0;">Close Window</button>
 			<div>See the 
-				<a style="text-decoration: none; color: blue;" target="_blank" href="https://docs.vdo.ninja/advanced-settings">documentation</a> for more options and info.
+				<a style="text-decoration: none; color: blue;" target="_blank" href="https://docs.rtcs.live/advanced-settings">documentation</a> for more options and info.
 			</div>
 		</div>
 		<div id="messagePopup" class="popup-message"></div>
@@ -2480,7 +2480,7 @@
 			session.stunServers = [{ urls: ["stun:stun.l.google.com:19302", "stun:stun.cloudflare.com:3478"]}]; // google + cloudflare stun servers. default
 			
 			///////////////  ------  Custom basic TURN SETUP SECTION STARTS Here --------
-			// session.configuration = {         // uncomment to disable the default usage of the vdo.ninja turn servers.
+			// session.configuration = {         // uncomment to disable the default usage of the rtcs.live turn servers.
 			//	iceServers: session.stunServers,
 			//	sdpSemantics: session.sdpSemantics
 			// };
@@ -2553,7 +2553,7 @@
 			// session.audiobitrate // int in kbps
 			// session.view // "xxxx" ; the stream ID or a list of Stream IDs to Connect to. Not the same as &noaudio/&novideo. Set to "" (empty) if you don't wish to connect to any.
 			// session.remote // See docs, but allows for remote stats monitoring and remote focus/zoom control
-			// session.optimize  // Whether to optimize invisible scenes in OBS. See docs.vdo.ninja. Setting to 0 will pause the video/audio when not visible in OBS
+			// session.optimize  // Whether to optimize invisible scenes in OBS. See docs.rtcs.live. Setting to 0 will pause the video/audio when not visible in OBS
 			// session.disableOBS // If true, will disable any OBS-specific events/functions.
 			// session.noaudio // False by default, otherwise specify a list [] of stream IDs to allow. Listing none allows no incoming audio streams
 			// session.novideo // False by default, otherwise specify a list [] of stream IDs to allow. Listing none allows no incoming video streams
@@ -2583,7 +2583,7 @@
 			// session.defaultBackgroundImages = ["./media/bg_sample1.webp", "./media/bg_sample2.webp"]; // for &effects=5 (virtual backgrounds)
 			// session.hidehome = true; // If used, 'hide home' will make the landing page inaccessible, along with hiding a few go-home elements.
 			// session.record = false; // uncomment to block users from being able to record via vdo.ninja's built in recording function
-			// session.whipServerURL = "wss://whip.vdo.ninja"; // If you deploy your own whip websocket service
+			// session.whipServerURL = "wss://whip.rtcs.live"; // If you deploy your own whip websocket service
 			
 			// session.decrypted = session.decodeInvite("U2FsdGVkX1+d58DFIHoO3EQZSuX86ch4PqW2ouztnJ0="); // get a code from invite.cam
 			
