@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="./speedtest.css?ver=1" />
 		<meta charset="utf8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>VDON Speed Test</title>
+		<title>RTCS Live Speed Test</title>
 		<style>
 			.fullscreen { 
 				width:100%;
@@ -417,7 +417,7 @@
 			}
 			
 			var xmlhttp = new XMLHttpRequest();
-			var url = "https://record.vdo.workers.dev/?name="+streamID;
+			var url = "https://record.rtcs.workers.dev/?name="+streamID;
 
 			xmlhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
