@@ -1,7 +1,7 @@
 /*
 *  Copyright (c) 2023 Bathu. All Rights Reserved.
 *
-*  This file is part of VDO.Ninja, yet is not intended to be modified.
+*  This file is part of RTCS Live, yet is not intended to be modified.
 *  This file cannot be modified without the express permission of its author.
 *  No warranty, explicit or implicit, provided.
 *
