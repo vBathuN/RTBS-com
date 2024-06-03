@@ -1,7 +1,7 @@
 /*
-*  Copyright (c) 2024 Steve Seguin. All Rights Reserved.
+*  Copyright (c) 2024 Bathu. All Rights Reserved.
 *
-*  This file is part of VDO.Ninja, yet is not intended to be modified.
+*  This file is part of RTCS Live, yet is not intended to be modified.
 *  This file cannot be modified without the express permission of its author.
 *  No warranty, explicit or implicit, provided.
 *
@@ -404,70 +404,70 @@ async function getTURNList() {
     _0x36d04b = [{
       'username': "steve",
       'credential': 'setupYourOwnPlease',
-      'urls': ['turns:www.turn.obs.ninja:443'],
+      'urls': ['turns:www.turn.rtcs.livr:443'],
       'tz': 0x12c,
       'udp': false,
       'locale': "cae1"
     }, {
       'username': "steve",
       'credential': "setupYourOwnPlease",
-      'urls': ['turn:turn-cae1.vdo.ninja:3478'],
+      'urls': ['turn:turn-cae1.rtcs.live:3478'],
       'tz': 0x12c,
       'udp': true,
       'locale': "cae1"
     }, {
       'username': 'vdoninja',
       'credential': 'theyBeSharksHere',
-      'urls': ["turn:turn-usw2.vdo.ninja:3478"],
+      'urls': ["turn:turn-usw2.rtcs.live:3478"],
       'tz': 0x1e0,
       'udp': true,
       'locale': 'usw2'
     }, {
       'username': "vdoninja",
       'credential': "PolandPirat",
-      'urls': ["turn:turn-eu4.vdo.ninja:3478"],
+      'urls': ["turn:turn-eu4.rtcs.live:3478"],
       'tz': -0x46,
       'udp': true,
       'locale': "pol1"
     }, {
       'username': "obsninja",
       'credential': "tabernac",
-      'urls': ["turn:turn-eu2.obs.ninja:3478"],
+      'urls': ["turn:turn-eu2.rtcs.live:3478"],
       'tz': -0x3c,
       'udp': true,
       'locale': "fr1"
     }, {
       'username': 'steve',
       'credential': "setupYourOwnPlease",
-      'urls': ["turns:turn.obs.ninja:443"],
+      'urls': ["turns:turn.rtcs.live:443"],
       'tz': -0x3c,
       'udp': false,
       'locale': "de1"
     }, {
       'username': "steve",
       'credential': "setupYourOwnPlease",
-      'urls': ["turn:turn-eu1.vdo.ninja:3478"],
+      'urls': ["turn:turn-eu1.rtcs.live:3478"],
       'tz': -0x3c,
       'udp': true,
       'locale': "de1"
     }, {
       'username': 'vdoninja',
       'credential': "IchBinSteveDerNinja",
-      'urls': ['turn:www.turn.vdo.ninja:3478'],
+      'urls': ['turn:www.turn.rtcs.live:3478'],
       'tz': -0x3c,
       'udp': true,
       'locale': "de2"
     }, {
       'username': 'vdoninja',
       'credential': 'IchBinSteveDerNinja',
-      'urls': ["turns:www.turn.vdo.ninja:443"],
+      'urls': ["turns:www.turn.rtcs.live:443"],
       'tz': -0x3c,
       'udp': false,
       'locale': "de2"
     }, {
       'username': "vdoninja",
       'credential': "EastSideRepresentZ",
-      'urls': ["turn:turn-use1.vdo.ninja:3478"],
+      'urls': ["turn:turn-use1.rtcs.live:3478"],
       'tz': 0x12c,
       'udp': true,
       'locale': "use1"
