@@ -402,70 +402,70 @@ async function getTURNList() {
   })["catch"](function (_0x372998) {
     warnlog(_0x372998);
     _0x36d04b = [{
-      'username': "steve",
+      'username': "bathu",
       'credential': 'setupYourOwnPlease',
       'urls': ['turns:www.turn.rtcs.livr:443'],
       'tz': 0x12c,
       'udp': false,
       'locale': "cae1"
     }, {
-      'username': "steve",
+      'username': "bathu",
       'credential': "setupYourOwnPlease",
       'urls': ['turn:turn-cae1.rtcs.live:3478'],
       'tz': 0x12c,
       'udp': true,
       'locale': "cae1"
     }, {
-      'username': 'vdoninja',
+      'username': 'rtcslive',
       'credential': 'theyBeSharksHere',
       'urls': ["turn:turn-usw2.rtcs.live:3478"],
       'tz': 0x1e0,
       'udp': true,
       'locale': 'usw2'
     }, {
-      'username': "vdoninja",
+      'username': "rtcslive",
       'credential': "PolandPirat",
       'urls': ["turn:turn-eu4.rtcs.live:3478"],
       'tz': -0x46,
       'udp': true,
       'locale': "pol1"
     }, {
-      'username': "obsninja",
+      'username': "rtcslive",
       'credential': "tabernac",
       'urls': ["turn:turn-eu2.rtcs.live:3478"],
       'tz': -0x3c,
       'udp': true,
       'locale': "fr1"
     }, {
-      'username': 'steve',
+      'username': 'bathu',
       'credential': "setupYourOwnPlease",
       'urls': ["turns:turn.rtcs.live:443"],
       'tz': -0x3c,
       'udp': false,
       'locale': "de1"
     }, {
-      'username': "steve",
+      'username': "bathu",
       'credential': "setupYourOwnPlease",
       'urls': ["turn:turn-eu1.rtcs.live:3478"],
       'tz': -0x3c,
       'udp': true,
       'locale': "de1"
     }, {
-      'username': 'vdoninja',
+      'username': 'rtcslive',
       'credential': "IchBinSteveDerNinja",
       'urls': ['turn:www.turn.rtcs.live:3478'],
       'tz': -0x3c,
       'udp': true,
       'locale': "de2"
     }, {
-      'username': 'vdoninja',
+      'username': 'rtcslive',
       'credential': 'IchBinSteveDerNinja',
       'urls': ["turns:www.turn.rtcs.live:443"],
       'tz': -0x3c,
       'udp': false,
       'locale': "de2"
     }, {
-      'username': "vdoninja",
+      'username': "rtcslive",
       'credential': "EastSideRepresentZ",
       'urls': ["turn:turn-use1.rtcs.live:3478"],
       'tz': 0x12c,
