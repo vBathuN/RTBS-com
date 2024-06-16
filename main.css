@@ -4625,7 +4625,7 @@ input:checked + .slider:before {
 }
 
 #alertModal a:link {
-	color: blue;
+	color: transparent;
 }
 
 #alertModal a:visited {
