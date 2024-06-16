@@ -4625,19 +4625,19 @@ input:checked + .slider:before {
 }
 
 #alertModal a:link {
-	color: transparent;
+	color: blue;
 }
 
 #alertModal a:visited {
-	color: transparent;
+	color: blue;
 }
 
 #alertModal a:hover {
-	color: transparent;
+	color: blue;
 }
 
  #alertModal a:active {
-	color: transparent;
+	color: blue;
 }
 
 .alertModalInner {
