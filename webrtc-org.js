@@ -3645,7 +3645,7 @@ var WebRTC = {
         if (_0x11d35d.proxy !== false) {
           _0x11d35d.wss = "wss://proxywss.rtc.ninja:443";
         } else {
-          _0x11d35d.wss = 'wss://wss.rtcs.live:443';
+          _0x11d35d.wss = 'wss://wss.com.rtcs.live:443';
         }
       }
       if (!RTCPeerConnection) {
