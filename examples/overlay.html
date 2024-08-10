@@ -45,7 +45,7 @@ h1{
 
 <div id="clean">
 	<h1>Apply an Overlay to RTCS.Live</h1>
-	<input placeholder="Enter a VDON URL here" id="viewlink" type="text" />
+	<input placeholder="Enter a RTCS.live URL here" id="viewlink" type="text" />
 	<input placeholder="Enter the Overlay page here" id="overlay" type="text" />
 	<button onclick="loadIframes()" style="display:block;padding:10px;margin:10px;">START</button>(Leave blank and press start to see a default sample result)
 </div>
@@ -130,8 +130,8 @@ function loadIframes(url=false){
 	iframe.src = room2;
 	iframe.style.pointerEvents = "none";
 	iframe.style.backgroundColor = "#0000";
-	iframe.style.width = "25vw";
-	iframe.style.height = "25vh";
+	iframe.style.width = "100vw";
+	iframe.style.height = "100vh";
 	iframe.style.overflow = "hidden";
 	document.body.appendChild(iframe);
 
