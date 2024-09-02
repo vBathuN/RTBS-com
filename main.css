@@ -478,6 +478,7 @@ button.hint {
 	background-color: #0F131D;
 	color: #FFF;
 	-webkit-app-region: drag;
+	display: none;
 }
 #head1{
 	display: inline-block;
