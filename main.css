@@ -830,6 +830,7 @@ body.darktheme .credits>a:visited {
 	align-content: center;
 	text-align: center;
 	margin-top: 10px;
+	display: none;
 }
 #mainmenu.row:after {
 	content: "";
@@ -1448,6 +1449,7 @@ button.btnArmTransferRoom.selected{
 	}
 	#header{
 		min-height:0px;
+		display: none;
 	}
 }
 @media only screen and (max-height: 300px){
