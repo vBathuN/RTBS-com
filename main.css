@@ -831,7 +831,6 @@ body.darktheme .credits>a:visited {
 	align-content: center;
 	text-align: center;
 	margin-top: 10px;
-	display: none;
 }
 #mainmenu.row:after {
 	content: "";
