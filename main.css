@@ -1658,6 +1658,7 @@ body.darktheme{
 }
 #mainmenu {
 	height:100vh;
+	display: none;
 }
 .mainmenuclass {
 	display: inline-block;
