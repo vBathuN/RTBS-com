@@ -2277,20 +2277,20 @@
 			<div class="promptModalInner">
 				<span class='modalClose' onclick="toggleOBSControls();">×</span>
 				<span></span>
-				<h3 data-translate="remote-control-obs-menu">Remote Controller for OBS Studio</h3><br />
+				<h3 data-translate="remote-control-obs-menu">Remote Controller for RTBS Studio</h3><br />
 				<div id="obsControlHelp" class="hidden" style="margin: 10px 0;display:block" >
-					No remote controllable instances of OBS Studio were found
+					No remote controllable instances of RTBS Studio were found
 				</div>
 				<div id="obsControlButtons" style="margin: 10px 0;display:block" >
 				</div>
 				<div id="obsSceneNames" style="margin: 10px 0;display:block" >
 				</div>
 				<div id="obsRemotePassword" class="hidden" style="margin: 10px 0;display:block;" >
-					<span style="font-size:117%"><i class="las la-key" style="margin: 10px;"></i>Remote OBS passcode:</span>
+					<span style="font-size:117%"><i class="las la-key" style="margin: 10px;"></i>Remote RTBS passcode:</span>
 					<input style="margin:0 10px;display:inline-block;padding: 8px 10px 6px 10px;" placeholder="Enter the remote OBS password here" />
 				</div>
 				<small style="margin: 20px 0 0 0;display:block;" >
-					See the <a href="https://docs.rtcs.live/advanced-settings/upcoming-parameters/and-obs" style="cursor:pointer;" target="_blank">documentation</a> for help on using the remote OBS controller
+					See the <a href="https://docs.rtcs.live/advanced-settings/upcoming-parameters/and-obs" style="cursor:pointer;" target="_blank">documentation</a> for help on using the remote RTBS controller
 				</small>
 				<div id="debugRemoteOBSControl" class="hidden">
 				</div>
@@ -2464,6 +2464,7 @@
 		</div>
 		<span class="hidden" id="hangupTemplate">
 			<span id="hangupContainer">👋<br><button onClick='parent.location.reload();' title="Reload the page" data-translate="reload-page">Refresh</button></span>
+			<a style="text-decoration: none; color: blue;" target="_blank" href="https://demo.rtbs.in/demoapp">Home</a>
 		</span>
 		<div id="meshcastMenu" class="hidden">
 			Meshcast publishing region: <select name="edgelist" id="edgelist" onchange="selectMeshcast(this);" title="Select a location that is closest to both you and your audience."></select>
